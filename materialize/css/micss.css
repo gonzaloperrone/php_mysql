@@ -1,0 +1,29 @@
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 90%;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: rgba(47, 184, 175, 0.5);
+}
+
+.voyAbajo{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 90%;
+    }
+}
