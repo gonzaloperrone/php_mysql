@@ -56,6 +56,7 @@ SELECT * FROM personas;
 INSERT INTO personas (nombre,apellido,email,cedula,fechaNacimiento,telefono,genero,domicilio,pais)
 VALUES ("Gonzalo", "Perrone", "gonzalodamianperrone@gmail.com","12345678", "2000-04-05", "099999999", "Masculino", "En la esquina", "UY")
 
+--Distintas personas
 INSERT INTO personas SET
 nombre = "Carla",
 apellido = "Po",
