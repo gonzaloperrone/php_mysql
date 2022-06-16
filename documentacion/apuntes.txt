@@ -1,0 +1,16 @@
+-Entidades
+Alunmos
+Cursos
+Tipos de cursos
+Profesores
+
+-Relaciones
+Cursos - Profesores
+Cursos - alumnos
+Cursos - tipos cursos
+
+-Atributos
+Alumnos: Nombres, Apellidos, documento, tipoDocumento(Ci o Passaporte), fechaNacimiento
+Profesores: Nombres, Apellidos, fecha nacimiento.
+Cursos: Código del curso, Nombre, Año, tipo de Curso, Profesor 
+Tipo Curso: Nombre y descripción
